@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RZCommonLib_Example' do
+  pod 'RZCommonLib', :path => '../'
+
+  target 'RZCommonLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
